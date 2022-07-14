@@ -25,7 +25,7 @@ const dataBelanjaan = [
 const listBelanjaan = (maless) => {
   let hem = [];
   for (let i = 0; i < maless.length; i++) {
-      hem.push(maless[i]['nama'] + " x " + maless[i]['kuantitas'])
+      hem.push("- " + maless[i]['nama'] + " x " + maless[i]['kuantitas'])
   }
   return hem;
 }
